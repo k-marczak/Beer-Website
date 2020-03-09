@@ -485,7 +485,7 @@ nav{
     
     .cards .container{
         grid-template-columns: 1fr 1fr;
-        transform: translateX(80px);
+        /* transform: translateX(80px); */
     }
 
     .card{
@@ -594,11 +594,6 @@ nav{
         height: 70px;
     }
 
-    .card{
-        transform: translateX(80px);
-        width: 430px;
-    }
-
     .card img{
         height: 250px;
     }
@@ -633,7 +628,8 @@ nav{
         grid-template-columns: 1fr;
         /* margin-left: 41vh; */
         margin-top: 40px;
-        transform: translateX(-6px);
+        margin: 0 auto;
+        /* transform: translateX(-6px); */
     }
 
     .cards .card{
@@ -759,5 +755,54 @@ nav{
     padding: 20px;
 }
 
+@media(max-width: 425px){
+    .main h1{
+        transform: translateY(30px);
+    }
+
+    .main p{
+        transform: translate(-14px, 50px);
+        font-size: 30px;
+    }
+
+    #btn{
+        padding: 8px 32px;
+        transform: translateX(-90px);
+    }
+
+    .logoo{
+        height: 50px;
+        transform: translateX(-20px);
+    }
+
+    #image{
+        z-index: 999;
+        height: 60px;
+    }
+
+    .cards .container .card{
+        /* transform: translateX(-30px); */
+    }
+
+    .cards .container{
+        margin: 50px auto;
+    }
+
+    .container .card{
+        margin: 31px auto;
+    }
+
+    .footer a{
+        font-size: 10px;
+        padding: 20px;
+    }
+
+    .links li a , h3{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+
+}
 
 
