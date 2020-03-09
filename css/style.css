@@ -755,19 +755,48 @@ nav{
     padding: 20px;
 }
 
-@media(max-width: 425px){
+@media(max-width: 455px){
     .main h1{
-        transform: translateY(30px);
+        transform: translateY(140px);
+
     }
 
     .main p{
-        transform: translate(-14px, 50px);
+        transform: translate(-1px, 150px);
         font-size: 30px;
     }
 
     #btn{
         padding: 8px 32px;
         transform: translateX(-90px);
+        display: none;
+    }
+
+    .links-inner{
+        grid-gap: 0;
+        text-align: center;
+    }
+
+    .desc h1{
+        font-size: 30px;
+    }
+
+    .visit h2{
+        transform: translateX(-80px);
+    }
+
+    .visit h3{
+        transform: translateX(-80px);
+        line-height: 1.5rem;
+    }
+
+    .desc h3{
+        font-size: 20px;;
+    }
+
+    .desc p{
+        font-size: 10px;
+        transform: translateX(4px);
     }
 
     .logoo{
@@ -781,7 +810,7 @@ nav{
     }
 
     .cards .container .card{
-        /* transform: translateX(-30px); */
+        transform: translateY(-40px);
     }
 
     .cards .container{
@@ -790,6 +819,19 @@ nav{
 
     .container .card{
         margin: 31px auto;
+    }
+
+    .card-image{
+        height: 200px !important;
+    }
+
+    .events h1{
+        font-size: 40px;
+        padding: 0 10px;
+    }
+
+    .events p{
+        transform: translateY(20px);
     }
 
     .footer a{
