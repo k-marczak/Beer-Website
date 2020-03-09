@@ -586,7 +586,8 @@ nav{
 @media(max-width: 800px){
     .cards .container{
         grid-template-columns: 1fr;
-        margin: auto 0;
+        margin: 0 auto;
+        margin-left: 230px;
         
     }
 
@@ -606,8 +607,16 @@ nav{
 
     }
 
+    .events h1{
+        font-size: 40px;
+    }
+
     .card p{
         font-size: 14px;
+    }
+
+    .card-image{
+        height: 170px;
     }
 }
 
@@ -618,6 +627,14 @@ nav{
 
     .links-inner{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-image{
+        height: 200px !important;
+    }
+
+    #image{
+        display: none;
     }
 
     .main-img{
@@ -842,6 +859,14 @@ nav{
     .links li a , h3{
         padding: 5px;
         font-size: 15px;
+    }
+
+    #image{
+        display: none;
+    }
+
+    #para{
+        display: none;
     }
 
 
